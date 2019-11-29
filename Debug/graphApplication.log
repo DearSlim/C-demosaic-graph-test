@@ -1,0 +1,10 @@
+﻿  graph.cpp
+c:\users\administrator\desktop\wjg\graphapplication\graphapplication\graph.cpp(26): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+graph.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+graph.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+graph.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，该符号在函数 "public: int __thiscall graph::graph_to_text(void)" (?graph_to_text@graph@@QAEHXZ) 中被引用
+graph.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::namedWindow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?namedWindow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，该符号在函数 "public: int __thiscall graph::graph_to_text(void)" (?graph_to_text@graph@@QAEHXZ) 中被引用
+graph.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@debug_build_guard@1@@Z)，该符号在函数 "public: int __thiscall graph::graph_to_text(void)" (?graph_to_text@graph@@QAEHXZ) 中被引用
+E:\opencv\opencv\build\x64\vc14\lib\opencv_world411d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+E:\opencv\opencv\build\x64\vc14\lib\opencv_world411.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+C:\Users\Administrator\Desktop\wjg\graphApplication\Debug\graphApplication.exe : fatal error LNK1120: 5 个无法解析的外部命令
